@@ -54,13 +54,6 @@ F12::Suspend
             Sleep 80
         }
     }
-    ; ^F6::{
-    ;     Sleep 200
-    ;     SendText('etonfox@gmail.com')
-    ;     SendInput('{Tab}')
-    ;     Sleep 300
-    ;     SendText('zzz123666')
-    ; }
     checkskipbutton(){
         if (ok:=FindText(&X, &Y, 91, 47, 186, 85, 0.35, 0.35, skip_button)){
             SendInput('{Escape}')
@@ -84,3 +77,4 @@ F12::Suspend
     
 }
 #HotIf
+
